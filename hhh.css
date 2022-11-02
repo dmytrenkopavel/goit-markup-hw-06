@@ -1,0 +1,42 @@
+.div {
+  padding: 30px;
+}
+.text {
+  color: blanchedalmond;
+  background-color: rgb(64, 62, 62);
+  border: 1px orangered solid;
+  font-size: 20px;
+  line-height: 1.5;
+  height: 200px;
+  width: 300px;
+  overflow: auto;
+}
+.text:hover {
+  background-color: blanchedalmond;
+  color: blue;
+  border-radius: 50px;
+}
+.list {
+  display: flex;
+  list-style: none;
+  background-color: aquamarine;
+  border: 2px solid coral;
+  border-radius: 5px;
+  line-height: 2;
+  font-size: 30px;
+  position: fixed;
+  bottom: 50px;
+  left: 60px;
+}
+.lis {
+  background-color: yellow;
+  border: 2px solid rgb(62, 59, 59);
+  border-radius: 20px;
+  line-height: 2;
+  font-size: 20px;
+  width: 650px;
+  list-style: none;
+}
+.li {
+  padding: 0 30px;
+}
