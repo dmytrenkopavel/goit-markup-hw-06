@@ -436,34 +436,34 @@
             <p class="modal-title">Залиште свої дані, ми вам передзвонимо</p>
             <form class="modal-box">
               <label class="input-label"
-                ><span>Ім'я</span>
+                ><p class="modal-name">Ім'я</p>
                 <div class="input-wrap">
-                  <input type="text" name="user-name" class="modal-input" />
+                  <input type="text" name="user-name" class="modal-input" required />
                   <svg class="modal-input-icon">
                     <use href="./img/symbol-defs.svg#person-black"></use>
                   </svg>
                 </div>
               </label>
               <label class="input-label"
-                ><span>Телефон</span>
+                ><p class="modal-name">Телефон</p>
                 <div class="input-wrap">
-                  <input type="tel" name="user-phone" class="modal-input" />
+                  <input type="tel" name="user-phone" class="modal-input" required />
                   <svg class="modal-input-icon">
                     <use href="./img/symbol-defs.svg#phone-black"></use>
                   </svg>
                 </div>
               </label>
               <label class="input-label"
-                ><span>Пошта</span>
+                ><p class="modal-name">Пошта</p>
                 <div class="input-wrap">
-                  <input type="email" name="user-email" class="modal-input" />
+                  <input type="email" name="user-email" class="modal-input" required />
                   <svg class="modal-input-icon">
                     <use href="./img/symbol-defs.svg#email-black"></use>
                   </svg>
                 </div>
               </label>
               <label class="input-label"
-                ><span>Коментар</span>
+                ><p class="modal-name">Коментар</p>
                 <textarea
                   class="modal-textarea"
                   name="Коментар"
@@ -471,12 +471,12 @@
                   placeholder="Введіть текст"
                 ></textarea>
               </label>
-
               <label class="label">
-                <input type="checkbox" class="checkbox" />
+                <input type="checkbox" class="checkbox" required />
                 <span class="icon"></span>
-                <span>Погоджуюся з розсилкою та приймаю</span></label
-              ><a href="#" class="modal-link">Умови договору.</a>
+                Погоджуюся з розсилкою та приймаю
+                <a href="#" class="modal-link">Умови договору.</a>
+              </label>
               <button type="submit" class="modal-btn">Відправити</button>
             </form>
           </div>
